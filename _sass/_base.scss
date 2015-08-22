@@ -7,6 +7,9 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
+:focus {
+    outline: 0;
+}
 
 
 
@@ -21,6 +24,9 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    background: url(../img/bg14.jpg) no-repeat center center;
+    background-size:cover;
 }
 
 
@@ -80,7 +86,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 600;
+    color: #5a595d;
 }
 
 
